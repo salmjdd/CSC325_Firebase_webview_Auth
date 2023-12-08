@@ -161,4 +161,9 @@ public class AccessFBView {
         }
 
     }
+
+    @FXML
+    private void exitHandler(ActionEvent event) {
+        System.exit(100);
+    }
 }
