@@ -12,8 +12,8 @@ public class welcomeController {
 
     public static Scene scene;
     @FXML
-    private void signInHandler(ActionEvent event) {
-        System.out.println("helo");
+    private void signInHandler(ActionEvent event) throws IOException {
+        App.setRoot("signin.fxml");
 
     }
 
